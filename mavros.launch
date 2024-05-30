@@ -1,0 +1,13 @@
+<launch>
+  <node pkg="mavros" type="node" name="mavros" output="screen">
+    <param name="fcu_url" value="/dev/ttyUSB0:57600" />
+    <param name="gcs_url" value="" />
+    <param name="target_system_id" value="1" />
+    <param name="target_component_id" value="1" />
+    <param name="fcu_protocol" value="v2.0"/>
+    <param name="system_id" value="1" />
+    <param name="component_id" value="1" />
+    <param name="log_output" value="screen"/>
+    <param name="log_level" value="info"/>
+  </node>
+</launch>
